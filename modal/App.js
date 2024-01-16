@@ -13,7 +13,7 @@ const App = () => {
           Alert.alert('Modal has been closed.');
           setModalVisible(!modalVisible);
         }}>
-        <View style={styles.centeredView}>
+        <View style={styles.centeredView2}>
           <View style={styles.modalView}>
             <Text style={styles.modalText}>Onneksi olkoon osasit painaa nappia!</Text>
             <Pressable
@@ -75,6 +75,13 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     textAlign: 'center',
   },
+  centeredView2: {
+    backgroundColor: 'black',
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 22,
+  }
 });
 
 export default App;
